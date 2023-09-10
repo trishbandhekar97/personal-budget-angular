@@ -37,7 +37,7 @@
    * `article` contexts in Chrome, Firefox, and Safari.
    */
   
-  h1 {
+  h1,h2,h3 {  /* Done to add font size and margin to h2 which was added for semantic change*/
     font-size: 2em;
     margin: 0.67em 0;
   }
