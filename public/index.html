@@ -9,10 +9,12 @@
     <title>Personal Budget</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>    
+
+    
+
 </head>
 <body>
+    
 
     <nav class="menu" role="navigation"> <!--This is a semantic HTML change--> <!--This is an A11y change-->
         <ul>
@@ -81,16 +83,12 @@
             </div>
     
             <div class="text-box">
-                <h3>Results</h3> <!-- This is a SEO change-->
-                <p>
-                    People who stick to a financial plan, budgeting every expense, get out of debt faster!
-                    Also, they to live happier lives... since they expend without guilt or fear... 
-                    because they know it is all good and accounted for.
-                </p>
+                <h3>D3 Visualization</h3> <!-- This is a SEO change-->
+                <div id="pieChart"></div>
             </div>
     
             <div class="text-box">
-                <h3>Free</h3> <!-- This is a SEO change-->
+                <h3>Charts.js Visualization</h3> <!-- This is a SEO change-->
                 <p>
                     <canvas id="myChart" width="400", height="400"></canvas>
                 </p>
@@ -105,6 +103,11 @@
             All rights reserved &copy; Trish Bandhekar
         </div>
     </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>    
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="d3.js"></script>
     
     
     <script>
