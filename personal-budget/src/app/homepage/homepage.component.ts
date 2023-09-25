@@ -64,12 +64,6 @@ export class HomepageComponent implements OnInit, AfterViewInit{
         data: this.dataSource
     })
   }
-
-
-  
-
-  
-
 }
 
 
